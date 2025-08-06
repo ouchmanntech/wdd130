@@ -92,7 +92,7 @@ h1{
     background-color: var(--primary-color);
     top: 200px;
     opacity: 0.9;
-    width: aut0;
+    width:auto;
 }
 .socialmedia img {
     width: 30px;
