@@ -43,7 +43,7 @@ nav ul {
 }
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 header, main, footer {
     width: 100%;
