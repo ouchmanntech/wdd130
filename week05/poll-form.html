@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wdd 130 | html form - user poll</title>
+    <meta name="description" content="poll form"> 
+    <meta name="author" content=" uche kalu | wdd130">
+</head>
+<body>
+    <header>
+        <h1>wdd130 | Uche Kalu | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">what is your fovourite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Moxilla firefox</option>
+                    <option value="opera">Oprera Mini</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="lagos, Abia, Ogun, Enugu, Abuja, Ondo"></textarea>
+            </fieldset>
+            <button type="submit"> Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>2025| Html form - user poll Activity | Uche Kalu</p>
+    </footer>
+</body>
+</html>
