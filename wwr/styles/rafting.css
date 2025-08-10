@@ -177,13 +177,13 @@ label {
     justify-content:flex-start;
     margin: 2px;
 }
-.map {
+/* .map {
     display:flex;
     justify-content: flex-end;
     padding: 10px;
     margin: 60px;
     
-}
+} */
 input{
     width:350px ;
     margin-bottom: 8px;
@@ -207,8 +207,8 @@ button{
 
 section{
     border: 2px;
-    padding: 10px;
-    display: inline;
-    float:left;
-    margin: 60px;
+    padding: 2px;
+    display:block;
+    float:right;
+    margin: 1px;
 }
