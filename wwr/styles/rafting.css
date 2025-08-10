@@ -180,13 +180,13 @@ label {
     justify-content:flex-start;
     margin: 2px;
 }
-/* .map {
-    display:flex;
-    justify-content: flex-end;
+.map {
+    
+    
     padding: 10px;
     margin: 60px;
     
-} */
+}
 input{
     width:350px ;
     margin-bottom: 8px;
